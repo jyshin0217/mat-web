@@ -19,6 +19,24 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
+  {
+    path: "/junemat",
+    name: "Junemat",
+    component: () =>
+      import("../views/junemat/index.vue"),
+  },
+  {
+    path: "/jinmat",
+    name: "Jinmat",
+    component: () =>
+      import("../views/jinmat/index.vue"),
+  },
+  {
+    path: "/youtube",
+    name: "youtube",
+    component: () =>
+      import("../views/youtube/index.vue"),
+  }
 ];
 
 const router = new VueRouter({
