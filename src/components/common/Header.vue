@@ -4,6 +4,7 @@
       <h1><a href="/" class="log"><img alt="june mat logo" src="../../img/junemat.png"/></a></h1>
       <div calss="menuWrap">
           <ul class="menu">
+              <li><a href="/">홈!</a></li>
               <li><a href="/junemat">준맛!</a></li>
               <li><a href="/jinmat">찐맛!</a></li>
               <li><a href="/youtube">유튜브</a></li>
@@ -71,5 +72,6 @@ a {
   text-decoration: none;
   color: #333;
   font-family: jua;
+  font-size: 30px;
 }
 </style>
