@@ -6,7 +6,6 @@
         :initialValue="editorText"
         height="500px"
         previewStyle="vertical"
-        plugins="pluginsOptions"
     />
     <!-- 
         height: 에디터 영역의 높이 값 300px | auto
@@ -19,7 +18,6 @@
 
 <script>
 import '@toast-ui/editor/dist/toastui-editor.css';
-
 import { Editor } from '@toast-ui/vue-editor';
 import { colorSyntax } from '@toast-ui/editor-plugin-color-syntax';
 
@@ -37,6 +35,10 @@ export default {
   },
   methods: {
     getContent() {
+      console.log('-마크다운-')
+      console.log(this.$refs.toastEditor.invoke('getMarkdown'))
+      console.log('- HTML -')
+      console.log(this.$refs.toastEditor.invoke('getHtml'))
       return this.$refs.toastEditor.invoke('getMarkdown')
     },
     setContent(content) {
