@@ -8,6 +8,8 @@
               <li><a href="/junemat">준맛!</a></li>
               <li><a href="/jinmat">찐맛!</a></li>
               <li><a href="/youtube">유튜브</a></li>
+              <li><a href="/adminReg">관리자(저장)</a></li>
+              <li><a href="/adminView">관리자(화면)</a></li>
           </ul>
       </div>
   </header>

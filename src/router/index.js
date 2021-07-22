@@ -36,6 +36,18 @@ const routes = [
     name: "youtube",
     component: () =>
       import("../views/youtube/index.vue"),
+  },
+  {
+    path: "/adminReg",
+    name: "adminReg",
+    component: () =>
+      import("../views/admin/adminReg.vue"),
+  },
+  {
+    path: "/adminReg",
+    name: "adminReg",
+    component: () =>
+      import("../views/admin/adminReg.vue"),
   }
 ];
 
