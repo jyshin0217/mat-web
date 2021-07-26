@@ -35,6 +35,7 @@ export default {
   },
   methods: {
     getContent() {
+      console.log(this.$refs.toastEditor)
       console.log('-마크다운-')
       console.log(this.$refs.toastEditor.invoke('getMarkdown'))
       console.log('- HTML -')

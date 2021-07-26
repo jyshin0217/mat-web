@@ -3,8 +3,8 @@
         <div class="footer-content">
             <p>술과 음식을 좋아하는 우리가 직접 방문한 맛집들을 소개해주는 블로그입니다.</p>
             <ul class="socials">
-                <li class="icon s1"><a @click="kakaoShare"><img alt="kakao logo(icons8)" style="width: 30px" src="../../img/kakao.png" /></a></li>
                 <li class="icon s2"><a href="https://www.youtube.com/channel/UCOY2brQ_esbkHEqUEHwPJfg"><img alt="youtube logo(icons8)" style="width: 30px" src="../../img/youtube.png" /></a></li>
+                <li class="icon s2"><a href="http://localhost:8081"><img alt="youtube logo(icons8)" style="width: 30px" src="../../img/admin.png" /></a></li>
             </ul>
         </div>
         <div class="footer-bottom">

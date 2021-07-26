@@ -44,10 +44,16 @@ const routes = [
       import("../views/admin/adminReg.vue"),
   },
   {
-    path: "/adminReg",
-    name: "adminReg",
+    path: "/adminView",
+    name: "adminView",
     component: () =>
-      import("../views/admin/adminReg.vue"),
+      import("../views/admin/adminView.vue"),
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: () =>
+      import("../views/admin/login.vue"),
   }
 ];
 
